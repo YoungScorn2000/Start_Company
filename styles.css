@@ -1,0 +1,720 @@
+   body {
+       font-family: 'Montserrat', sans-serif;
+       /*  overflow-x: hidden - Sklanjanje vertikalnog skrola  */
+       overflow-x: hidden;
+   }
+
+
+   main {
+       text-align: center;
+       padding-top: 40vh;
+       display: block;
+       height: 100vh;
+       background-image: url(Slike/1920x1080_1.jpg);
+       background-attachment: fixed;
+       background-size: cover;
+
+   }
+
+
+   p {
+       color: white;
+       text-shadow: 2px 2px 5px rgba(255, 255, 255);
+   }
+
+
+   h2 {
+       text-align: center;
+       font-weight: bold;
+       font-size: 5rem;
+       padding-top: 1rem;
+       color: white;
+   }
+
+
+   h3,
+   h4,
+   h5 {
+       color: white;
+       text-align: center;
+       text-shadow: 2px 2px 5px rgba(255, 255, 255);
+   }
+
+   h1 {
+       text-align: center;
+       font-weight: bold;
+       font-size: 5rem;
+       padding-top: 1rem;
+       color: white;
+   }
+
+   li {
+       color: white;
+       text-shadow: 2px 2px 5px rgba(255, 255, 255);
+       font-size: 1rem;
+   }
+
+   section {
+       display: block;
+   }
+
+
+   .motrio-div-1 {
+       text-align: center;
+   }
+
+
+   .logo-motrio {
+       height: 5rem;
+       border: 1px solid white;
+   }
+
+
+   .brand-logo {
+       height: 3.125rem;
+   }
+
+   .custom-link {
+       font-size: 1.7rem;
+       padding-top 0;
+       padding-bottom: 0;
+       padding-left: 3.125rem;
+       color: white;
+       position: relative;
+   }
+
+   .custom-link::after {
+       content: '';
+       opacity: 0;
+       transition: all 0.5s;
+       height: 2px;
+       width: 100%;
+       background-color: lime;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+   }
+
+   .custom-link:hover::after {
+       opacity: 1;
+   }
+
+
+
+   .navbar-custom {
+       background: transparent;
+       padding: 10px 20px 0 20px;
+       transition: 0.7s;
+   }
+
+   .navbar-scrolled {
+       background-color: black;
+       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+   }
+
+   .sr-lang {
+       height: 20px;
+       width 30px;
+   }
+
+
+   .img-bg {
+       height: 100vh;
+       width: 100vw;
+       object-fit: cover;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: -1;
+       background-attachment: fixed;
+   }
+
+   .main-logo {
+       height: 100px;
+   }
+
+   .main-heading {
+       display: inline-block;
+       position: relative;
+       left: auto;
+       top: auto;
+       color: white;
+       font-size: 9.375rem;
+       font-weight: normal;
+       padding: 0;
+   }
+
+   .main-subheading {
+       font-size: 1.875rem;
+       color: white;
+   }
+
+
+
+   .o-nama-sekcija {
+       min-height: 90vh;
+       padding-left: 1.875rem;
+       padding-right: 1.875rem;
+       padding-top: 0.625rem;
+       background: rgb(0, 0, 0);
+       background: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(179, 8, 8, 1) 100%);
+   }
+
+   .card-h5 {
+       text-align: center;
+   }
+
+
+   .custom-card {
+       border-bottom-color: red;
+       border: 1px solid;
+       border-color: red;
+       background: rgb(2, 0, 36);
+       background: linear-gradient(209deg, rgba(2, 0, 36, 1) 0%, rgba(179, 8, 8, 1) 100%);
+       box-shadow: 5px 2px 10px black;
+   }
+
+
+   .car-logo {
+       height: 15.625rem;
+       margin: 10px 0 20px 0;
+       display: inline-block;
+       padding-left: 3.125rem;
+       padding-right: 3.125rem;
+   }
+
+
+   .o-nama-vlasnik {
+       position: relative;
+       min-height: 120vh;
+       background: rgb(0, 0, 0);
+       background: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(179, 8, 8, 1) 100%);
+   }
+
+   .above-the-header {
+       font-size: 1.5625rem;
+       color: red;
+       text-align: center;
+       position: relative;
+       text-shadow: none;
+   }
+
+   .o-nama-heading {
+       text-align: center;
+       font-weight: bold;
+       font-size: 5rem;
+       font-weight: bold;
+       position: relative;
+   }
+
+
+
+   .vlasnik {
+       max-height: 60%;
+       max-width: 60%;
+       display: inline-block;
+       margin-left: 2.5rem;
+       margin-right: 2.5rem;
+       border: 1px solid;
+       border-color: red;
+       float: left;
+       position: relative;
+   }
+
+   .o-nama-tekst {
+       width: 60%;
+       height: 100%;
+       display: inline-block;
+       text-align: justify;
+
+   }
+
+
+   .o-nama-p {
+       padding-bottom: 10px;
+       text-shadow: 2px 2px 5px rgba(255, 255, 255);
+       position: relative;
+       font-size: 18px;
+   }
+
+
+   .baner-vozila {
+       border: 2px solid;
+       border-color: #ff0000;
+       text-align: center;
+       width: 100%;
+   }
+
+   .nase-usluge-sekcija {
+       min-height: 160vh;
+       background: rgb(2, 0, 36);
+       background: linear-gradient(209deg, rgba(2, 0, 36, 1) 0%, rgba(179, 8, 8, 1) 100%);
+   }
+
+   .nase-usluge-h1 {
+       text-align: center;
+       font-size: 5rem;
+       padding-top: 1rem;
+   }
+
+   .mobile-container {
+       display: inline;
+   }
+
+
+   .sve-usluge {
+       text-align: center;
+       padding-top: 3.125rem;
+       padding-left: 3.125rem;
+       padding-right: 3.125rem;
+   }
+
+
+   .kartica {
+       display: inline-block;
+       background: rgb(0, 0, 0);
+       background-color: black;
+       border: 1px solid;
+       border-color: white;
+       margin: 10px;
+   }
+
+
+   .card-body {
+       padding: 8px;
+   }
+
+   .tekst-kartice {
+       font-size: 1rem;
+   }
+
+   .card-usluge {
+       background-color: black;
+   }
+
+
+   #galerija {
+       min-height: 200vh;
+       background: linear-gradient(209deg, rgba(2, 0, 36, 1) 0%, rgba(179, 8, 8, 1) 100%);
+       padding: 1rem;
+   }
+
+
+   .nase-akcije {
+       height: 70vh;
+       background-image: url(Slike/nase-akcije.png);
+       background-attachment: fixed;
+   }
+
+   .akcije-heading {
+       text-align: center;
+       font-weight: bold;
+       font-size: 5rem;
+       padding-top: 1rem;
+
+   }
+
+   .akcija-slika {
+       height: 25rem;
+       border: 1px solid;
+       border-color: red;
+       margin: 10px;
+   }
+
+   .div-akcije {
+       margin: 1.875rem;
+       text-align: center;
+   }
+
+
+   .kontaktirajte-nas {
+       height: 80vh;
+       background: rgb(128, 128, 128);
+       background: linear-gradient(13deg, rgba(128, 128, 128, 1) 0%, rgba(23, 23, 23, 1) 70%);
+   }
+
+
+
+   .contact-div {
+       display: inline-block;
+       float: center;
+       margin-left: 3.125rem;
+       margin-top: 2.5rem;
+
+   }
+
+   .custom-contact-div {
+       padding: 1.5rem;
+   }
+
+   .kontakt-ime {
+       color: red;
+       text-shadow: none;
+       text-align: center;
+       padding-bottom: 1.25rem;
+   }
+
+   .kontakt-h2 {
+       text-align: left;
+       display: flex;
+   }
+
+   .slika-pozdrav {
+       height: inherit;
+       float: center;
+       position: relative;
+   }
+
+
+
+   .pozdrav-slika-div {
+       height: 21.875rem;
+
+       left: 11rem;
+       bottom: 5rem;
+       display: inline-block;
+   }
+
+   .gde-smo-mi {
+       text-align: center;
+       font-size: 2rem;
+   }
+
+   .contact-item {
+       font-size: 2rem;
+   }
+
+   #footer {
+       height: 25vh;
+       background-color: black;
+
+   }
+
+
+   .footer-elements {
+       display: flex;
+       position: relative;
+       top: 40%;
+   }
+
+   .footer-div {
+       display: flex;
+       flex-basis: 33%;
+       justify-content: center;
+       position: relative;
+   }
+
+
+   .footer-logo {
+       height: 5rem;
+       width: 50%;
+   }
+
+
+   .custom-fa {
+       font-size: 4rem;
+       color: white;
+       padding: 0.5rem;
+   }
+
+   .rights-footer {
+       position: relative;
+       padding-top: 2rem;
+   }
+
+   .izrada-sajta {
+       padding-top: 1rem;
+       text-align: center;
+       background-color: dimgray;
+       min-height: 15vh;
+   }
+
+   }
+
+   /*FOR MOBILE DEVICES*/
+   @media all (min-width: 360px) and (max-width: 800px) {
+       body {
+
+           font-family: 'Montserrat', sans-serif;
+           /*  overflow-x: hidden - Sklanjanje vertikalnog skrola  */
+           overflow-x: hidden;
+       }
+
+       h2 {
+           text-align: center;
+           font-weight: bold;
+           font-size: 2rem;
+           padding-top: 1rem;
+           color: white;
+       }
+
+       main {
+           text-align: center;
+           align-content: center;
+           padding-top: 30vh;
+           display: block;
+           min-height: 100vh;
+           max-height: 150vh;
+           background-image: url(Slike/1920x1080_1.jpg);
+           background-attachment: fixed;
+           background-size: cover;
+           background-position: center center;
+       }
+
+       .main-heading {
+           font-size: 2rem;
+           display: inline-block;
+           position: relative;
+           color: white;
+           font-weight: normal;
+           text-align: center;
+       }
+
+       .main-logo {
+
+           height: 80px;
+       }
+
+
+       #o-nama {
+           min-height: 180vh;
+       }
+
+       .car-logo {
+           height: 4rem;
+           width: inherit;
+       }
+
+       .o-nama-vlasnik {
+           min-height: 260vh;
+       }
+
+
+       .o-nama-tekst {
+           width: 100%;
+           padding: 1rem;
+       }
+
+       .o-nama-p {
+           font-size: 1rem;
+           text-align: justify;
+       }
+
+       .vlasnik {
+           height: 50rem;
+           max-width: 85%;
+           margin: 0;
+           float: none;
+       }
+
+       .vlasnik-img-div-mob {
+           text-align: center;
+       }
+
+       .baner-vozila {
+           width: 100%;
+       }
+
+       .nase-usluge-sekcija {
+           min-height: 270vh;
+       }
+
+       .tekst-kartice {
+           font-size: 1rem;
+       }
+
+       .kartica {
+           height: 100%;
+       }
+
+       .sve-usluge {
+           padding-left: 0.5rem;
+           padding-right: 0.5rem;
+       }
+
+
+       .nase-akcije {
+           min-height: 210vh;
+       }
+
+       .kontaktirajte-nas {
+           min-height: 150vh;
+
+       }
+
+
+
+       .kontakt-h1 {
+           font-size: 3rem;
+           padding-left: 1rem;
+           padding-right: 1rem;
+           text-align: center;
+           position: relative;
+       }
+
+
+       .div-contact-info {
+           display: block;
+           position: relative;
+           height: inherit;
+       }
+
+       .contact-div {
+           display: block;
+       }
+
+       .contact-item {
+           font-size: 1.5rem;
+       }
+
+
+       .google-map {
+           width: 100%;
+           padding: 0;
+           display: inline-block;
+           text-align: center;
+       }
+
+       .slika-pozdrav {
+           text-align: center;
+
+
+       }
+
+       .pozdrav-slika-div {
+           display: inline-block;
+           position: relative;
+           left: 0;
+           right: 0;
+           top: 0;
+           bottom: 0;
+           padding-left: 0.5rem;
+           padding-right: 0.5rem;
+           margin: 0;
+           text-align: center;
+       }
+
+
+
+
+       #footer {
+           height: 30vh;
+           padding: 0;
+       }
+
+       .footer-elements {
+           display: block;
+           text-align: center;
+           margin-top: 0;
+           position: relative;
+           top: 25%;
+       }
+
+       .footer-logo {
+           height: 3rem;
+           display: inline-block;
+
+       }
+
+       .footer-div {
+           display: block;
+           text-align: center;
+       }
+
+       .izrada-sajta {
+           text-align: center;
+           background-color: dimgray;
+           max-height: 15vh;
+       }
+
+
+       /*FOR MOBILE DEVICES*/
+
+
+       /* TABLETS */
+       @media (min-width: 901px) and (max-width: 1023px) {
+
+           li {
+               font-size: 1.5rem;
+           }
+
+
+
+           #main-section {
+               padding-top: 30vh;
+               max-height: 110vh;
+               text-align: center;
+               align-content: center;
+           }
+
+           .main-section-div {
+               position: static;
+               margin-top: 48%;
+           }
+
+           #o-nama {
+               max-height: 220vh;
+           }
+
+           .main-heading {
+               position: static;
+               font-size: 6rem;
+           }
+
+
+           .vlasnik-img-div-mob {
+               text-align: center;
+           }
+
+           .o-nama-vlasnik {
+               text-align: center;
+           }
+
+
+
+           .vlasnik {
+               height: 50rem;
+               max-width: 85%;
+               margin: 0;
+               float: none;
+           }
+
+           #akcije {
+               max-height: 220vh;
+           }
+
+           #kontakt {
+               max-height: 200vh;
+           }
+
+           #footer {
+               max-height: 30vh;
+               padding: 0;
+           }
+
+           .footer-elements {
+               width: 50%;
+               display: block;
+               text-align: center;
+               margin-top: 0;
+               position: relative;
+               top: 15%;
+               left: 26%;
+
+           }
+
+           .footer-logo {
+               height: 3rem;
+               display: inline-block;
+
+           }
+
+           .footer-div {
+               display: block;
+               text-align: center;
+           }
+
+           #nase-usluge {
+               max-height: 200vh;
+           }
+       }
